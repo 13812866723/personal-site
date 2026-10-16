@@ -69,6 +69,11 @@ src/
 
 颜色、字体、圆角都在 `src/app.css` 的 `@theme` 块。暗色模式通过 `prefers-color-scheme` 覆盖同一组变量，因此不需要客户端主题脚本，也不会闪烁。
 
+## 让别人访问
+
+局域网演示、Vercel / Cloudflare / GitHub Pages 部署、绑定域名、
+国内备案方案，完整步骤见 [DEPLOY.md](./DEPLOY.md)。
+
 ## 部署到 Vercel
 
 1. 推到 GitHub。
